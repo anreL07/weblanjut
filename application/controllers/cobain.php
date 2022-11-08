@@ -3,16 +3,13 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class coba extends CI_Controller {
+class cobain extends CI_Controller {
 
-	public function rumah()
-	{
-		echo 'rumah ku';
-	}
+    public function rumah()
+    {
+        echo 'Rumah ku';
+    }
 
 }
 
 /* End of file Controllername.php */
-
-
-?>

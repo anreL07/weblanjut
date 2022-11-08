@@ -9,7 +9,19 @@ class Home extends CI_Controller
     {
         $this->load->view('home');
     }
+    
+    public function tampil()
+    {
+        return $this->load->view('Tampil');
+        
+    }
+    //keterangan form
+    public function form()
+    {
+        return $this->load->view('form');
+        
+    }
+
 }
 
 /* End of file Home.php */
-?>
